@@ -16,7 +16,7 @@ class Game(object):
         self.ACTION_MAP = {1 : ["+", self.add, "magenta", artwork.SMALL_FISH],
                   2 : ["-", self.subtract, "cyan", artwork.MEDIUM_FISH],
                   3 : ["x", self.multiply, "yellow", artwork.FAT_FISH],
-                  4 : ["/", self.divide, "red", artwork.FAT_FISH]
+                  4 : ["/", self.divide, "red", artwork.BIG_FISH]
                  }
     
     def add(self, a, b):
@@ -103,7 +103,7 @@ class Game(object):
         
     
 game = Game()
-print("\n\n\n\n\n\n")
+print("\n\n\n")
 print(Back.RED + Fore.YELLOW + "==========================================")
 print(Back.RED + Fore.YELLOW + "WELCOME TO HOLLY'S MATHS AND FISHING GAME!")
 print(Back.RED + Fore.YELLOW + "==========================================")
